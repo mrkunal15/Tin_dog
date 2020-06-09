@@ -1,0 +1,149 @@
+#title {
+  background-color: yellow;
+}
+
+.container-fluid {
+  padding-right: 15%;
+  padding-left: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#navbar {
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 4.5rem;
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.75rem;
+  line-height: inherit;
+  white-space: nowrap;
+  color: red;
+}
+
+.nav-item {
+  margin-left: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+  color: red;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+.btn{
+  margin-bottom: 4rem;
+  margin-left: 2%;
+}
+.img {
+  width: 17rem;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 23%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.bar {
+  width: 20px;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+P {
+  color: #8f8f8f;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: yellow;
+}
+
+.dog_pic {
+  width: 25%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+#press {
+  background-color: yellow;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.pic {
+  width: 15%;
+  margin: 3% 3%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing_colum{
+  padding: 3% 2%;
+}
+@media (max-width : 1028px) {
+  #title{
+    text-align: center;
+  }
+  .img{
+    transform: rotate(0deg);
+    position: static;
+  }
+  .dog_pic{
+    width: 45%;
+  }
+}
+#cta{
+  background-color: yellow;
+  text-align: center;
+  padding: 7% 3%;
+}
+#h3{
+  font-size: 3rem;
+  margin-top: 25px;
+  line-height: 1.5;
+}
+.cta_btn{
+  margin-top: 3%;
+}
+#footer{
+  text-align: center;
+  padding: 5.5% 2%;
+}
